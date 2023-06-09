@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:srcCompat="@drawable/baseline_airplanemode_inactive_24" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/baseline_airplanemode_inactive_24"
+        android:paddingHorizontal="20dp"
+        android:text="Turn off fligth mode"
+        app:icon="@drawable/baseline_airplanemode_inactive_24"
+        app:iconTint="@color/white"
+        android:backgroundTint="@color/purple"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Updating profile"
+        android:backgroundTint="@color/red"
+        app:icon="@drawable/baseline_cached_24"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Picture saved to gallery"
+        android:backgroundTint="@color/cream"
+        android:textColor="@color/red"
+        />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Unlocked level 5"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/light_blue"/>
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Level 4 completed"
+        android:backgroundTint="@color/light_blue"
+        app:icon="@drawable/baseline_star_rate_24"
+        style="@style/Widget.MaterialComponents.Button.Icon"
+        />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Music paused"
+        style="@style/Widget.MaterialComponents.Button.Icon"
+        android:backgroundTint="@color/green"
+        app:icon="@drawable/baseline_pause_circle_24"
+        />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

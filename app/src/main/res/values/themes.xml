@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Ejercicio11_modulo4_androird" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="floatingActionButtonStyle">@style/FloatingActionButtonRound</item>
+    </style>
+
+    <style name="Theme.Ejercicio11_modulo4_androird" parent="Base.Theme.Ejercicio11_modulo4_androird" />
+
+
+    <style name="FloatingActionButtonRound" parent="Widget.MaterialComponents.FloatingActionButton">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+        <item name="backgroundTint">@color/purple</item>
+        <item name="elevation">20dp</item>
+        <item name="android:layout_margin">20dp</item>
+    </style>
+</resources>
